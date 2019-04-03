@@ -1,0 +1,14 @@
+ORIG_PN="pywinrm"
+inherit python-wheel
+
+NAME="python-winrm"
+VERSION=0.3.0
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Python interface to Windows Remote Management"
+
+ARCH=noarch
+
+python27_winrm_REQUIRES="python27-requests_ntlm"
+python36_winrm_REQUIRES="python36-requests_ntlm"
+python37_winrm_REQUIRES="python37-requests_ntlm"
